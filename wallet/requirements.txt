@@ -1,0 +1,19 @@
+## Installation of Hd Derive
+
+1. Begin by opening a fresh terminal. Windows users **must** open their terminal as administator as follows:
+
+    * Input `C:\Program Files\Git\bin\bash.exe` directly into the system search bar and launch the program as _Administrator_ from the resulting menu. 
+    
+    * **This step is required or the installation will fail!**
+
+    * <img alt=bash-exe.png src=Images/bash-exe.png height=500>
+
+2. With your terminal open as indicated for your operating system, cd into your `Blockchain-Tools folder and run the following code:
+
+    ```shell
+      git clone https://github.com/dan-da/hd-wallet-derive
+      cd hd-wallet-derive
+      curl https://getcomposer.org/installer -o installer.php
+      php installer.php
+      php composer.phar install
+    ```
